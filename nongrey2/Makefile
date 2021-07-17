@@ -37,7 +37,7 @@ test  : ${FEXEC}
 	@./${FEXEC}
 	@ echo "Compare the begining and end of the downloaded file Test.csv and the newly created file PTprofile.csv. This comparison make sense only if you kept the same values of the coefficients as in the downloaded code."
 	@ echo ""
-	@ echo "For the head"
+	@ echo "For the Head"
 	@ head -2 Test.csv PTprofile.csv
 	@ echo ""
 	@ echo "Now for the end of the file"
